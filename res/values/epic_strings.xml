@@ -57,6 +57,8 @@
 	 <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 	
-	<string name="summary_aboutx">Let You know about device</string>   
+	<string name="summary_aboutx">Let You know about device</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>	
 </resources>
