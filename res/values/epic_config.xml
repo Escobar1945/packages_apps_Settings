@@ -2,4 +2,7 @@
 <resources>
     
     <color name="homepage_dumpster_background">#536dfe</color>
+	
+	<!-- Fingerprint -->
+     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 </resources>
