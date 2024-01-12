@@ -58,6 +58,11 @@ public class Settings extends SettingsActivity {
     public static class TetherSettingsActivity extends SettingsActivity { /* empty */ }
     public static class WifiTetherSettingsActivity extends SettingsActivity { /* empty */ }
 
+    /** Activity for Dumpster settings. */
+    public static class AboutTeamActivity extends SettingsActivity { /* empty */ }
+    public static class QuickSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class StatusbarActivity extends SettingsActivity { /* empty */ }
+
     public static class VpnSettingsActivity extends SettingsActivity { /* empty */ }
     /** Activity for Data saver settings. */
     public static class DataSaverSummaryActivity extends SettingsActivity { /* empty */ }

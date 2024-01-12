@@ -191,6 +191,10 @@ import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.epic.dumpster.category.AboutTeamFragment;
+import com.epic.dumpster.category.QuickSettings;
+import com.epic.dumpster.category.StatusBarSettings;
+
 import com.epic.dumpster.EpicDumpsterDashboard;
 
 public class SettingsGateway {
@@ -373,7 +377,10 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
-			EpicDumpsterDashboard.class.getName()
+			AboutTeamFragment.class.getName(),
+            QuickSettings.class.getName(),
+            StatusBarSettings.class.getName(),
+			EpicDumpsterDashboard.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -421,5 +428,10 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.EpicDumpsterSettingsActivity.class.getName(),
+			
+			// Dumpster 
+            Settings.AboutTeamActivity.class.getName(),
+            Settings.QuickSettingsActivity.class.getName(),
+            Settings.StatusbarActivity.class.getName(),
     };
 }
