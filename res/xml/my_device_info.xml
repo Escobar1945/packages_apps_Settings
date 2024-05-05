@@ -47,7 +47,6 @@
          settings:layout="@layout/epic_preference_storage_a" />
 
     <PreferenceCategory
-        android:icon="@drawable/icon_preference_category"
         android:key="basic_info_category"
         android:selectable="false"
         android:title="@string/my_device_info_basic_info_category_title"
@@ -100,7 +99,6 @@
     <!--/PreferenceCategory-->
 
     <PreferenceCategory
-        android:icon="@drawable/icon_preference_category"
         android:key="device_detail_category"
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title"
@@ -187,7 +185,6 @@
 
     <PreferenceCategory
         android:title="@string/my_device_info_device_identifiers_category_title"
-        android:icon="@drawable/icon_preference_category"
         app:layout="@layout/epic_preference_category">
 
         <!--IP address -->
