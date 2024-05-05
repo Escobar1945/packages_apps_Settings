@@ -402,7 +402,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 			setClickActivity("MyDeviceInfoActivity");
 		} else if (view == mDisplayCard) {
 			setClickActivity("DisplaySettingsActivity");
-		} else if (view == mLabsCard) {
+		} else if (view == mDumpsterCard) {
             setClickActivity("EpicDumpsterSettingsActivity");
 		}
 	}
